@@ -7,6 +7,8 @@ public class Main {
     public static void main(String[] args){
         int count=0;
         int[] answer = new int[3];
+
+        // 乱数生成
         for(int i = 0; i < answer.length; i++){
             Loop: while(true){
                 answer[i] = (int)(Math.random() * 10);  //0~9の数値を入れる
@@ -17,6 +19,8 @@ public class Main {
                 break;
             }
         }
+
+        //数が当たるまで入力を繰り返す
         while (true) {
             count++;
             // 4つずつ数値を入力する。当たるまで繰り返す
@@ -60,6 +64,18 @@ public class Main {
             if(eat_number==array.length){
                     System.out.println("正解です！");
                     System.out.println(count+"回目でクリアしました");
+                    if(count==1){
+                        System.out.println("1発クリア！正解率0.2%！！！素晴らしいです！");
+                    }
+                    else if(count>2 && count<=3){
+                        System.out.println("いいですね！次は1発クリアを目指しましょう！(えっキツい？)");
+                    }
+                    else if(count>3 && count<=7){
+                        System.out.println("まあまあですね！もう少し精度を上げましょう！");
+                    }
+                    else{
+                        System.out.println("まだまだですね！頑張りましょう！");
+                    }
                     break;
             }
         }
