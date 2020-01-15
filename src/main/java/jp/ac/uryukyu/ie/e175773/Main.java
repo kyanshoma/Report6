@@ -1,5 +1,4 @@
 package jp.ac.uryukyu.ie.e175773;
-import java.lang.Math;
 import java.util.Arrays;
 
 public class Main {

@@ -4,7 +4,16 @@ import java.util.Scanner;
 
 public class InputNumber {
     public static int[] InputNumber(){
+        /**
+         * @param array:入力した数字を保存するための配列
+         */
         int array[] = new int[3];
+
+        /**
+         * 数字の入力部。
+         * 数字が重複していたり、指定以外の入力がされた場合は入力をやり直すように設定した。
+         * @return int型の配列
+         */
         for (int i = 0; i < array.length; i++) {
             Loop:
             while (true) {

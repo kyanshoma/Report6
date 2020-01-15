@@ -2,6 +2,9 @@ package jp.ac.uryukyu.ie.e175773;
 
 class RankJudgement {
     void rankJudgement(int count){
+        /**
+         * クリア時に入力した回数によってメッセージが変わるように設定した。
+         */
         System.out.println("正解です！");
         System.out.println(count+"回目でクリアしました");
         if(count==1){
