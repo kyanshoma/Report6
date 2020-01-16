@@ -25,6 +25,10 @@ class NumberComparisonTest {
 
     @Test
     void numberComparisonTest() {
+        /**
+         * 配列の数字と順番が一致していたら、返り値として3を返す。
+         * 配列の数字か変わってたり、数字が同じでも場所が異なってたりしていたらテストに失敗する。
+         */
         int array[] = {1,2,3};
         int answer[] = {1,2,3};
         int return_score;
