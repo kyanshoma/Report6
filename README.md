@@ -19,7 +19,7 @@
 - 数値を入力するためのメソッド<br>
 [InputNumber.java](https://github.com/kyanshoma/Report6/blob/master/src/main/java/jp/ac/uryukyu/ie/e175773/InputNumber.java)  
 
-- 入力した数値とランダムで用意した数値を比較するためのメソッド
+- 入力した数値とランダムで用意した数値を比較するためのメソッド<br>
 [NumberComparison.java](https://github.com/kyanshoma/Report6/blob/master/src/main/java/jp/ac/uryukyu/ie/e175773/NumberComparison.java)
 
 
